@@ -20,12 +20,12 @@
 #define BRIGHTNESS 127
 
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
-Adafruit_FT6206 ts = Adafruit_FT6206();
+//Adafruit_FT6206 ts = Adafruit_FT6206();
 
 void setup() {
     debugBegin(115200);
     tft.begin();
-    ts.begin();
+    //ts.begin();
 
     pinMode(TFT_BL, OUTPUT);
     analogWrite(TFT_BL, BRIGHTNESS);
