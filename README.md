@@ -13,6 +13,6 @@
 1. Change your settings in colour_list.ino
     * `DEBUG`: whether or not to serial print debug messages
     * `BRIGHTNESS`: 0-255 for the backlight strength
-    * `WIDTH` & `HEIGHT`: change if you use a different screen
+    * `WIDTH` & `HEIGHT`: change if you use a different screen or a different orientation
 1. Upload the sketch
 1. See the colours
